@@ -87,6 +87,7 @@
     <vendor code="12951" vendor-id="Verizon" name=">Verizon Wireless Enterprise"/>
     <vendor code="13019" vendor-id="ETSI" name=">European Telecommunications Standards Institute"/>
     <vendor code="13568" vendor-id="NeuStar"          name=">NeuStar"/>
+    <vendor code="14008" vendor-id="SICS"             name=">SICS Vendor"/>
     <vendor code="14122" vendor-id="WFA"              name=">WiFi-Alliance"/>
     <vendor code="15573" vendor-id="Apertio"          name=">Apertio Ltd."/>
     <vendor code="24757" vendor-id="WiMAX"            name=">WiMAX Forum"/>
@@ -3062,4 +3063,7 @@
     <avp code="266" vendor-id="Vodafone" name="VDF-Trigger-Type" type="Unsigned32"/>
     <avp code="267" vendor-id="Vodafone" name="VDF-User-Location-Information" type="OctetString"/>
     <avp code="268" vendor-id="Vodafone" name="VDF-Volume-Quota-Threshold" type="Unsigned32"/>
+    <!-- *** SICS AVPs *** -->
+    <avp code="100" vendor-id="SICS" name="GIADDR" type="UTF8String"/>
+    <avp code="101" vendor-id="SICS" name="UACS-Accounting" type="UTF8String"/>
 </dictionary>
